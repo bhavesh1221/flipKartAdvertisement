@@ -1,0 +1,107 @@
+.Container{
+    display: grid;
+    grid-template-columns: 180px 180px 180px 180px 180px 180px;
+    grid-template-rows: 250px;
+
+    position: relative;
+    top: 80px;
+
+    /* border: 1px solid black; */
+    
+}
+.Container:hover{
+    cursor: pointer;
+
+}
+img{
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    padding-top: 10px;
+   
+}
+
+.img{
+    text-align: center;
+}
+.bg{
+    color: green;
+}
+#rightarrow{
+    position: relative;
+    left: 163px;
+    top: -170px;
+    width: 30px;
+    height: 70px;
+    background: rgb(206, 204, 204);
+    z-index: 1;
+}
+.btn:hover{
+    cursor: pointer;
+}
+#icon{
+    position: relative;
+    left: 5px;
+    top: 24px;
+}
+.deal{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 63px;
+    /* border: 1px solid black; */
+    justify-content: space-between;
+    width: 80%;
+    position: relative;
+    top: 65px;
+    border-bottom: none;
+    background: white;
+    z-index: 1;
+}
+.dealOfDay{
+    font-size: 30px;
+    padding-left: 25px;
+    align-self: center;
+
+}
+.butn{
+    padding-right: 25px;
+    align-self: center;
+}
+.btn{
+   color: white;
+    border: none;
+    width: 95px;
+    height: 38px;
+    background: #2874f0;
+
+}
+/* div{
+    border: 1px solid black;
+} */
+
+.maincon{
+    position: relative;
+    display: grid;
+    grid-template-columns: 80% 20%;
+    /* border: 2px solid blueviolet; */
+    /* top: 100px; */
+    background: rgb(233, 224, 224);
+}
+.adv{
+    position: relative;
+    top: 0px;
+    /* border: 2px solid red; */
+    height: 314px;
+    background-image: url('adv.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    
+    color: white;
+    font-size: 20px;
+}
+h3{
+    position: relative;
+    top: 210px;
+}
